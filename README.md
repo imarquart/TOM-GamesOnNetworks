@@ -8,7 +8,7 @@ Game Theory is fundamental for analyzing _strategic_ interactions of (possibly b
 
 Typically, each agent is afforded a reaction function: If a peer were to do action _a_, then our agent would want to do action _b_. If peer were to choose action _c_ instead, our agent would now want to choose _d_, and so on. An _equilibrium_ is a set of actions for each agent that is consistent with all these reaction functions: In an equilibrium, everyone is happy with their choice of action, given the choices of other agents. Game Theory typically doesn't specify _how_ we get to the equilibrium, it rather analyzes equilibriums directly. This makes these immensely complex behavioral problems amendable to formal analysis. On the other hand, it means that several equilibria may be viable in a given situation, and our model would require additional assumptions to pick which one will occur.
 
-In math, let $$a_i$$ be the action of agent $$i$$. Let $$a_j$$ be the action (or actions) of other agent(s). $$r_i(a_j)$$ is the reaction function, and $$(a_i^*,a_j^*)$$ is an equilibrium if
+In math, let $a_i$ be the action of agent $$i$$. Let $$a_j$$ be the action (or actions) of other agent(s). $$r_i(a_j)$$ is the reaction function, and $$(a_i^*,a_j^*)$$ is an equilibrium if
 $$ a_i^* = r_i(a_j^*) \forall i $$
 
 Game theory becomes crucial in modeling when preferences (goals) of the agents diverge _and_ agents are interdependent. Examples may be hiring committees, market interactions between firms, R&D strategies, voting in teams, delegation of tasks, the provision of public goods, or social pressure.
