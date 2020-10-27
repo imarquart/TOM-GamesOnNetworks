@@ -8,8 +8,9 @@ Game Theory is fundamental for analyzing _strategic_ interactions of (possibly b
 
 Typically, each agent is afforded a reaction function: If a peer were to do action _a_, then our agent would want to do action _b_. If peer were to choose action _c_ instead, our agent would now want to choose _d_, and so on. An _equilibrium_ is a set of actions for each agent that is consistent with all these reaction functions: In an equilibrium, everyone is happy with their choice of action, given the choices of other agents. Game Theory typically doesn't specify _how_ we get to the equilibrium, it rather analyzes equilibriums directly. This makes these immensely complex behavioral problems amendable to formal analysis. On the other hand, it means that several equilibria may be viable in a given situation, and our model would require additional assumptions to pick which one will occur.
 
-In math, let $a_i$ be the action of agent $$i$$. Let $$a_j$$ be the action (or actions) of other agent(s). $$r_i(a_j)$$ is the reaction function, and $$(a_i^*,a_j^*)$$ is an equilibrium if
-$$ a_i^* = r_i(a_j^*) \forall i $$
+In math, let <img src="https://render.githubusercontent.com/render/math?math=a_i">  be the action of agent <img src="https://render.githubusercontent.com/render/math?math=i"> . Let <img src="https://render.githubusercontent.com/render/math?math=a_{-i}"> be the action (or actions) of other agent(s). <img src="https://render.githubusercontent.com/render/math?math=r_i(a_{-i})"> is the reaction function, and <img src="https://render.githubusercontent.com/render/math?math=(a_i^*,a_{-i}^*)"> is an equilibrium if
+
+<img src="https://render.githubusercontent.com/render/math?math=a_i^* = r_i(a_{-i}^*) \forall i">
 
 Game theory becomes crucial in modeling when preferences (goals) of the agents diverge _and_ agents are interdependent. Examples may be hiring committees, market interactions between firms, R&D strategies, voting in teams, delegation of tasks, the provision of public goods, or social pressure.
 
@@ -55,9 +56,13 @@ The peer group literature already illustrates that different kind of externaliti
 
 First, the *strategic dimension*. This dimension is most relevant when choices have magnitudes (number of produced widgets, dollars spent) or are at least in some sense ordinal. If the externality always has the same directional impact, then the aforementioned _reaction function_ behaves in predictable ways and we can neatly decide between two situations.
 
-If the reaction of agent _A_ is _increasing_ in the actions of his or her peers, then we have *strategic complements*. For example, if my competitor starts to exert more effort, I need to increase my own effort levels to keep up.
+If the reaction of agent _A_ is _increasing_ in the actions of his or her peers, then we have *strategic complements*. For example, if my competitor starts to exert more effort, I need to increase my own effort levels to keep up. In math, <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial r_i(a_j)}{\partial a_j}>0">
 
-If the reaction of agent _B_ is instead _decreasing_ in the action of his or her peers, then we have *strategic substitutes*. For example, 
+If the reaction of agent _A_ is instead _decreasing_ in the action of his or her peers, then we have *strategic substitutes*. For example, if my co-worker fills up the community coffee pot more often, I need to do it less often. In math, <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial r_i(a_j)}{\partial a_j}<0">
+
+The second *aggregation dimension* categorizes how the externalities of peers affect the focal agents utility. In peer groups, the focal agent is usually concerned with an aggregate such as the sum or average in the group. We can differentiate two cases:
+
+First, 
 
 #### Bénabou, R. (1996) ‘Equity and Efficiency in Human Capital Investment : The Local Connection’, The Review of Economic Studies, 63(2), pp. 237–264.
 
