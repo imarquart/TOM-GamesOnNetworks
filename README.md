@@ -48,13 +48,15 @@ The current approach to the analysis of games on networks grows largely out of t
 In the group literature, it is assumed that an agent _A_ is part of one group and is subsequently affected (only) by the choices of all other agents in that group. It is easy to see that this corresponds to a block-diagonal adjacency matrix. It also means that everyone in a given group has the same "peers".
 In contrast, the peer group in a general network is individual to each agent. _A_ and _B_ may be peers, but may have different peer groups nonetheless.
 
+While the papers below tackle many important substantive issues, such as community effects, inequality, schooling, competition and team performance, I will focus on the technical aspects. This is in part because many results and modeling approaches for peer groups are valid for games on networks. It seems like a good idea to get a sense of these issues in this simpler framework.
+
 ### Interdependencies are different kinds of externalities
 
 What I broadly called "interdependencies" in the above may be more accurately described as "externalities". The choice of our agent, be it _a_ or _d_, depends on the choice of his peer because this choice exerts some effect on the utility of our focal agent. Since the utility is then changed by this "externality", our focal agent now wants to do something different. Externalities thus capture many types of interdependencies - tasks, information, outputs, etc.
 
 The peer group literature already illustrates that different kind of externalities exist. I will tentatively sort them along two dimensions.
 
-First, the *strategic dimension*. This dimension is most relevant when choices have magnitudes (number of produced widgets, dollars spent) or are at least in some sense ordinal. If the externality always has the same directional impact, then the aforementioned _reaction function_ behaves in predictable ways and we can neatly decide between two situations.
+First, the *strategic dimension*. This dimension is most relevant when choices have magnitudes (number of produced widgets, dollars spent) or are at least in some sense ordinal. If the externality always has the same directional impact, then the aforementioned _reaction function_ behaves in predictable ways and we can neatly decide between two situations. These distinctions will matter for the determination of equilibria, which I will describe in a more technical appendix below.
 
 If the reaction of agent _A_ is _increasing_ in the actions of his or her peers, then we have *strategic complements*. For example, if my competitor starts to exert more effort, I need to increase my own effort levels to keep up. In math, <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial r_i(a_j)}{\partial a_j}>0">
 
@@ -62,17 +64,44 @@ If the reaction of agent _A_ is instead _decreasing_ in the action of his or her
 
 The second *aggregation dimension* categorizes how the externalities of peers affect the focal agents utility. In peer groups, the focal agent is usually concerned with an aggregate such as the sum or average in the group. We can differentiate two cases:
 
-First, 
+First, the focal agent might _compare_ himself to the average action in the peer group. This is called the *local average model*. It often describes conformism or status.
+
+Second, the focal agent's payoff might be multiplicatively influenced by the actions of the peer group. This is then called the *local aggregate model*. It often describes interdependent production or public goods.
+
+All four combinations are possible, and furthermore, many games don't fall in any of these categories. As it turns out, however, most do.
 
 #### Bénabou, R. (1996) ‘Equity and Efficiency in Human Capital Investment : The Local Connection’, The Review of Economic Studies, 63(2), pp. 237–264.
 
-This model considers how parents might choose a community to live in. After moving, the community exerts a local effect on the children's quality of interaction and education. This local effect is determined by the average social capital in the community. For that reason, this paper is an early version of what will later be termed a "local average model".
+This model considers how parents might choose a community to live in. After moving, the community exerts a local effect on the children's quality of interaction and education. This local effect is determined by the average social capital in the community. For that reason, this paper is an early version of the local average model.
 
 #### Akerlof, G. A. (1997) ‘Social Distance and Social Decisions’, Econometrica, 65(5), pp. 1005–1027.
 
 This paper is very significant for laying the groundwork of conformism and status models of social interactions. It already includes the formulation of utility (or valuation) that will be common in the later literature. Furthermore, Akerlof recognizes that peer effects have a strong tendency to create multiple equilibria. 
+He analyzes local average models, where agents either care about out-performing their peers (called status model), or seek to minimize deviation ('social distance') from the group average (called conformism model).
 
-## Early applications of networks
+#### Clark, A. E. and Oswald, A. J. (1998) ‘Comparison-concave utility and following behaviour in social and economic settings’, Journal of Public Economics, 70(1), pp. 133–155. doi: 10.1016/S0047-2727(98)00064-4.
+
+Where Akerlof presents the *aggregation dimension*, the paper by Clark and Oswald analyzes the *strategic dimension* in a peer group setting. He terms this as a game between leaders and followers.
+
+#### Akerlof, G. A. and Kranton, R. E. (2000) ‘Economics and identity’, The quarterly journal of economics, 115(3), pp. 715–753.
+
+In this work, agents belong to social categories that combine to form an individual identity. For example, one could be male or female, car mechanic or hairdresser. Akerlof and Kranton then assume that each social category comes with a prescription of what an agent _should_ do, and an agent may benefit from conforming or deviation from said prescription. This, again, is a variation of the local-average conformism model
+
+#### Durlauf, S. N. and Brock, W. A. (2001) ‘Discrete choice with social interactions’, Review of Economic Studies, 68(2), pp. 235–260. doi: 10.1111/1467-937x.00168.
+
+Brock and Durlauf present a more general model of binary choice and social interactions. They assume that the properties of peers may be unknown to the focal agent. Most importantly, this is the first model to consider both local-average and local-aggregate formulations. In addition to multiple equilibria, the authors also find that local-average and local-aggregate differ only in level: They lead to the same econometric model and are - at least in peer groups - not separately identified. This problem will keep the subsequent literature busy for many years to come.
+
+#### Glaeser, E. L., Scheinkman, J. A. and Sacerdote, B. I. (2003) ‘The Social Multiplier’, Journal of the European Economic Association, 1(2). doi: 10.1108/ilds.2002.12230dab.004.
+
+Like the above paper, this one has both a formal-theoretical and an econometric part. As example, they consider beer consumption in college for different peer groups (fraternities, non-fraternities and so on). This illustrates an all-important concept called the _social multiplier_: The aggregate action - the "sum of outputs" of a peer group is higher than the sum of outputs if the agents were isolated. The total is more than the sum of its parts. The interaction structure can have its own multiplicative effect on the aggregate result. Ultimately, this is the motivation to study games on networks.
+
+## Early applications of games on networks
+
+Here are some examples of early papers of games on networks. 
+
+#### Bala, V. and Goyal, S. (1998) ‘Learning from Neighbours’, Review of Economic Studies, 65(3), pp. 595–621. doi: 10.1111/1467-937X.00059.
+
+A bayesian learning model with a network structure, even though it is not yet called a network structure but rather a set of individual neighborhoods.
 
 ## The game changer: Outcome as a function of network structure
 
