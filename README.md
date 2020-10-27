@@ -14,7 +14,9 @@ Games on _networks_ are situations where the structure of interdependence can be
 
   _A_<---> _B_ <---> _C_
   
- We may now analyze this situation with pairwise dependencies between _A_ and _B_, as well as _B_ and _C_. If, however, _B_ anticipates in some way the actions of _A_ and _C_ when making his choice, then agent _A_'s payoff is now also indirectly influenced by the choice of _C_. We thus have to analyze a game on a network structure.
+We may now analyze this situation with pairwise dependencies between _A_ and _B_, as well as _B_ and _C_. If, however, _B_ anticipates in some way the actions of _A_ and _C_ when making his choice, then agent _A_'s payoff is now also indirectly influenced by the choice of _C_. We thus have to analyze a game on a network structure. Interdepencies can now be direct, indirect or entirely absent.
+ 
+An [https://en.wikipedia.org/wiki/Adjacency_matrix#Examples](adjacency matrix) represents these relationships succinctly.
  
  
  
