@@ -27,6 +27,8 @@ These relationships can be fixed (or exogenous), or they could also depend on th
 
 Network theory is a huge subject in itself, spanning multiple fields and numerous applications. I will link where I can, but I have to assume some knowledge about networks.
 
+The application of these models to organizational design, for example, seems valuable to me. It's clear that the structure of interdependence is crucial for OD. Strategic situations, those where incentives and preference diverge, have perhaps received less attention in our canonical models. For that reason, game theory and networks may be a worthwhile approach to think of some problems in the field.
+
 ## Implicit networks in the past literature
 
 The analysis of networks as structural objects of interest is relatively new in Game Theory.
