@@ -162,12 +162,12 @@ The authors can then show comparative statics: If the network effects increase, 
 
 The approach in this paper is not fully general. While peer effects can be substitutes or complements, the authors require them to be symmetric. This is because they use _potential functions_ to find equilibria: They seek a global "potential" describing the actions in the network, which can be optimized instead of optimizing for each agent separately.
 
-#### Network structure and eigenvalues
+## Network structure and eigenvalues
 
 Why do the eigenvalues of the adjacency matrix matter? Previous papers have shown that when the lowest eigenvalue has a high magnitude (or absolute value), then substitutive relationships lead to fluctuation in best responses that bounce through the network. With a high magnitude lowest eigenvalue, the network is more two-sided, thus solutions are more likely to fluctuate "globally". That is when we find multiple equilibria.
 What about strategic complements? Since actions here "multiply" each other, multiple equilibria are not related to fluctuations in the best-reply dynamics. Instead, we care about the largest eigenvalue, the spectral radius, and multiple equilibria occur due to bounds or discontinuities in the action space.
 
-In both cases, the spectra of the adjacency matrix determine whether agents take more or less extreme actions, depending on their position in the social network. Having found
+In both cases, the spectra of the adjacency matrix determine whether agents take more or less extreme actions, depending on their position in the social network. Having found the connection between network games and adjacency matrices, allows to leverage spectral graph theory to understand how a complex concept like "changing the network" influences agents' decisions. See for example Harkins, A. (2020) ‘Network Comparative Statics’, p. 45.
 
 ## Recent developments
 
