@@ -195,7 +195,7 @@ However, for complements, we can go further. The provably most general approach 
 
 This paper shows that we can actually do comparative statics - equilibrium analysis - for games in which decision variables are merely ordinal (precisely, when the action space is a lattice). If the utility function is _quasi-supermodular_, a generalization of complementarity, then equilibria can be analyzed for the impact of parameters quite generally. Indeed, this is the most general way one can analyze choice situations, as the authors show.
 
-Using this approach for network games lead to this paper
+Using this approach for network games led to this paper
 
 #### Belhaj, M., Bramoullé, Y. and Deroïan, F. (2014) ‘Network games under strategic complementarities’, Games and Economic Behavior, 88, pp. 310–319. doi: 10.1016/j.geb.2014.10.009.
 
@@ -213,7 +213,7 @@ Insights from network game models were then used to show how peer effects can be
 
 #### Bramoullé, Y., Djebbari, H. and Fortin, B. (2009) ‘Identification of peer effects through social networks’, Journal of Econometrics, 150, pp. 41–55.
 
-The distinction of local-average and local-aggregate effects lead us to understand how networks may or may not multiply behavior, shocks, policy interventions or organizational design factors:
+The distinction of local-average and local-aggregate effects led us to understand how networks may or may not multiply behavior, shocks, policy interventions or organizational design factors:
 
 #### Liu, X., Patacchini, E. and Zenou, Y. (2014) ‘Endogenous peer effects: local aggregate or local average?’, Journal of Economic Behavior & Organization, 103, pp. 39–59. doi: 10.1016/j.jebo.2014.03.025.
 
