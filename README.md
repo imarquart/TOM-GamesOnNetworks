@@ -2,6 +2,8 @@
 
 In this repository, I would like to write down what I (think I) understand about the analysis of games with a network structure and the literature relating to it. I will also try to point out some papers on the empirical application of these issues. Please feel free to add corrections as you see fit.
 
+The content is roughly chronological and follows my sense of how the ideas developed. If you are interested in the current literature, it'll be further below!
+
 ## What are games on networks (for)?
 
 Game Theory is fundamental for analyzing _strategic_ interactions of (possibly boundedly) rational agents. Interactions are strategic if agents anticipate the benefit of their choices conditional on what other agents might do now or in the future. Different from, say, models of mutual learning, agents in a game engage in acts of introspection about what other agents might do next.
