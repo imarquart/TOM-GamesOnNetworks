@@ -164,7 +164,10 @@ The approach in this paper is not fully general. While peer effects can be subst
 
 ## Network structure and eigenvalues
 
-Why do the eigenvalues of the adjacency matrix matter? Previous papers have shown that when the lowest eigenvalue has a high magnitude (or absolute value), then substitutive relationships lead to fluctuation in best responses that bounce through the network. With a high magnitude lowest eigenvalue, the network is more two-sided, thus solutions are more likely to fluctuate "globally". That is when we find multiple equilibria.
+Why do the eigenvalues of the adjacency matrix matter? 
+Fundamentally, networks transmit the actions of agents over their ties. This is, broadly, a multiplication of the vector of actions with the adjacency matrix. An equilibrium must now be such that this multiplicative behavior reaches a steady state - it must be (in some way) proportional to an eigenvector. If that is so, the eigenvalues will (in some way) define these equilibria for this particular network!
+
+Previous papers have shown that when the lowest eigenvalue has a high magnitude (or absolute value), then substitutive relationships lead to fluctuation in best responses that bounce through the network. With a high magnitude lowest eigenvalue, the network is more two-sided, thus solutions are more likely to fluctuate "globally". That is when we find multiple equilibria.
 What about strategic complements? Since actions here "multiply" each other, multiple equilibria are not related to fluctuations in the best-reply dynamics. Instead, we care about the largest eigenvalue, the spectral radius, and multiple equilibria occur due to bounds or discontinuities in the action space.
 
 In both cases, the spectra of the adjacency matrix determine whether agents take more or less extreme actions, depending on their position in the social network. Having found the connection between network games and adjacency matrices, allows to leverage spectral graph theory to understand how a complex concept like "changing the network" influences agents' decisions. See for example Harkins, A. (2020) ‘Network Comparative Statics’, p. 45.
