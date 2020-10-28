@@ -62,7 +62,7 @@ What I broadly called "interdependencies" in the above may be more accurately de
 
 The peer group literature already illustrates that different kind of externalities exist. I will tentatively sort them along two dimensions.
 
-First, the *strategic dimension*. This dimension is most relevant when choices have magnitudes (number of produced widgets, dollars spent) or are at least in some sense ordinal. If the externality always has the same directional impact, then the aforementioned _reaction function_ behaves in predictable ways and we can neatly decide between two situations. In addition to determining the main results, these distinctions will matter for finding the equilibria, which I will describe in a more technical appendix below.
+First, the *strategic dimension*. This dimension is most relevant when choices have magnitudes (number of produced widgets, dollars spent) or are at least in some sense ordinal. If the externality always has the same directional impact, then the aforementioned _reaction function_ behaves in predictable ways and we can neatly decide between two situations. In addition to determining the main results, these distinctions will matter for finding the equilibria.
 
 If the reaction of agent _A_ is _increasing_ in the actions of his or her peers, then we have *strategic complements*. For example, if my competitor starts to exert more effort, I need to increase my own effort levels to keep up. In math, <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial r_i(a_j)}{\partial a_j}>0">
 
