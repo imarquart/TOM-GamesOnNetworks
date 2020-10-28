@@ -163,11 +163,11 @@ Fundamentally, networks transmit the actions of agents over their ties. If our r
 Previous papers have shown that when the lowest eigenvalue has a high magnitude (or absolute value), then substitutive relationships lead to fluctuation in best responses that bounce through the network. With a high magnitude lowest eigenvalue, the network is more two-sided, thus solutions are more likely to fluctuate "globally". That is when we find multiple equilibria.
 What about strategic complements? Since actions here "multiply" each other, multiple equilibria are not related to fluctuations in the best-reply dynamics. Instead, we care about the largest eigenvalue, the spectral radius, and multiple equilibria occur due to bounds or discontinuities in the action space.
 
-In both cases, the spectra of the adjacency matrix determine whether agents take more or less extreme actions, depending on their position in the social network. Having found the connection between network games and adjacency matrices, allows to leverage spectral graph theory to understand how a complex concept like "changing the network" influences agents' decisions. See for example Harkins, A. (2020) ‘Network Comparative Statics’, p. 45.
+In both cases, the spectra of the adjacency matrix determine whether agents take more or less extreme actions, depending on their position in the social network. Having found the connection between network games and adjacency matrices allows to leverage spectral graph theory to understand how a complex concept like "changing the network" influences agents' decisions. See for example Harkins, A. (2020) ‘Network Comparative Statics’, p. 45.
 
 ## Recent developments
 
-There are several additions I would like to highlight. There are, of course, a lot of applications of the above frameworks. As an example, here is a paper analyzing networked markets based on the above framework:
+There are, of course, a lot of applications of the above frameworks. As an example, here is a paper analyzing networked markets based on the above:
 
 #### Bimpikis, K. and Ehsani, S. (2019) ‘Cournot Competition in Networked Markets’, Management Science, p. 42.
 
@@ -199,7 +199,7 @@ As far as I know, this is the most general approach for analyzing network games 
 
 ## Empirical Applications
 
-The empirical literature on networks is much larger. The analysis of network games has clarified some issues that crop up when using data. Multiple equilibria means that identification is a challenge. Outputs being related to the eigenvalue and centralities of a matrix implies that peer effects, if unobserved or not accounted for correctly, will bias traditional econometric approaches in almost every setting. Finally, if networks are endogenous, a strong selection effect is to be expected.
+The empirical literature on networks is much larger. The analysis of network games has clarified some issues that crop up when using data. Strategic choice situations having possibly multiple equilibria means that identification is a challenge. Even if the equilibrium is unique, identification actually depends on the network structure. Outputs being related to the eigenvalues of a matrix implies that peer effects, if unobserved or not accounted for correctly, will bias traditional econometric approaches in almost every setting. Game theoretic models illustrate that "naive" estimation approaches may not actually control for peer effects. Finally, if networks are endogenous, a strong selection effect is to be expected and the estimation (or controlling for) peer effects or interdependencies may be at risk.
 
 The issue of identification has been raised first by Manski for peer groups:
 
