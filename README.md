@@ -76,10 +76,6 @@ Second, the focal agent's payoff might be multiplicatively influenced by the act
 
 All four combinations are possible, and furthermore, many games don't fall in any of these categories. As it turns out, however, most do.
 
-#### Bénabou, R. (1996) ‘Equity and Efficiency in Human Capital Investment : The Local Connection’, The Review of Economic Studies, 63(2), pp. 237–264.
-
-This model considers how parents might choose a community to live in. After moving, the community exerts a local effect on the children's quality of interaction and education. This local effect is determined by the average social capital in the community. For that reason, this paper is an early version of the local average model.
-
 #### Akerlof, G. A. (1997) ‘Social Distance and Social Decisions’, Econometrica, 65(5), pp. 1005–1027.
 
 This paper is very significant for laying the groundwork of conformism and status models of social interactions. It already includes the formulation of utility (or valuation) that will be common in the later literature. Furthermore, Akerlof recognizes that peer effects have a strong tendency to create multiple equilibria. 
@@ -89,23 +85,18 @@ He analyzes local average models, where agents either care about out-performing 
 
 Where Akerlof presents the *aggregation dimension*, the paper by Clark and Oswald analyzes the *strategic dimension* in a peer group setting. The authors frame this as a game between leaders and followers.
 
-#### Akerlof, G. A. and Kranton, R. E. (2000) ‘Economics and identity’, The quarterly journal of economics, 115(3), pp. 715–753.
-
-In this work, agents belong to social categories that combine to form an individual identity. For example, one could be male or female, car mechanic or hairdresser. Akerlof and Kranton then assume that each social category comes with a prescription of what an agent _should_ do, and an agent may benefit from conforming or deviation from said prescription. This, again, is a variation of the local-average conformism model
-
 #### Durlauf, S. N. and Brock, W. A. (2001) ‘Discrete choice with social interactions’, Review of Economic Studies, 68(2), pp. 235–260. doi: 10.1111/1467-937x.00168.
 
 Brock and Durlauf present a more general model of binary choice and social interactions. They assume that the properties of peers may be unknown to the focal agent. Most importantly, this is the first model to consider both local-average and local-aggregate formulations. In addition to multiple equilibria, the authors also find that local-average and local-aggregate differ only in level: They lead to the same econometric model and are - at least in peer groups - not separately identified. This problem will keep the subsequent literature busy for many years to come.
 
-#### Glaeser, E. L., Scheinkman, J. A. and Sacerdote, B. I. (2003) ‘The Social Multiplier’, Journal of the European Economic Association, 1(2). doi: 10.1108/ilds.2002.12230dab.004.
-
-Like the above paper, this one has both a formal-theoretical and an econometric part. As example, they consider beer consumption in college for different peer groups (fraternities, non-fraternities and so on). This illustrates an all-important concept called the _social multiplier_: The aggregate action - the "sum of outputs" of a peer group is higher than the sum of outputs if the agents were isolated. The total is more than the sum of its parts. The interaction structure can have its own multiplicative effect on the aggregate result. Ultimately, this is the motivation to study games on networks.
-
-Finally, I highly recommend this article. If you read only one paper from this section, I recommend:
+Finally, I highly recommend this article.
 
 #### Glaeser, E. L. and Scheinkman, J. (2000) Non-market interactions. National Bureau of Economic Research.
 
 Here, we have peer or reference groups, but each agent can have multiple ones, bringing us close to a network situation. Furthermore, this paper tries to provide a more general framework to analyze social interactions and shows some of the key issues, such as multiple equilibria. It also shows that complements are not a necessary nor sufficient condition for multiple equilibria to occur. Instead, multiple equilibria are likely to occur when interdependencies are strong. It also gives an overview of mean-field analysis, which is often useful to simplify the issues under consideration.
+
+A related work is: Glaeser, E. L., Scheinkman, J. A. and Sacerdote, B. I. (2003) ‘The Social Multiplier’, Journal of the European Economic Association, 1(2). doi: 10.1108/ilds.2002.12230dab.004. This illustrates an all-important concept called the _social multiplier_: The aggregate action - the "sum of outputs" of a peer group is higher than the sum of outputs if the agents were isolated. The total is more than the sum of its parts. The interaction structure can have its own multiplicative effect on the aggregate result. Ultimately, this is the motivation to study games on networks.
+
 
 ## Early applications of games on networks
 
@@ -117,7 +108,7 @@ A bayesian learning model with a network structure, even though it is not yet ca
 
 #### Bala, V. and Goyal, S. (2001) ‘Conformism and diversity under social learning’, Economic Theory, 17(1), pp. 101–120. doi: 10.1007/PL00004094.
 
-This follow-up paper shows that diverse outcomes (or opinions) can co-exist, if the intensity of interaction between groups differs from the intensity within group. As of yet unrecognized is the general insight: The _symmetry_ of social interacts is a crucial determinant of diversity or conformism.
+This follow-up paper shows that diverse outcomes (or opinions) can co-exist, if the intensity of interaction between groups differs from the intensity within group. As of yet unrecognized is the general insight: The _symmetry_ of social interactions, and their magnitude, are a crucial determinant of diversity or conformism.
 
 #### Kranton, R. E. and Minehart, D. F. (2001) ‘A Theory of Buyer-Seller Networks’, THE AMERICAN ECONOMIC REVIEW, 91(3), p. 30.
 
