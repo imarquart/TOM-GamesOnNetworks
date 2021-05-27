@@ -1,4 +1,4 @@
-# TOM Knowledge Repository: Games on Networks
+# Games on Networks
 
 In this repository, I would like to write down what I (think I) understand about the analysis of games with a network structure and the literature relating to it. I will also try to point out some papers on the empirical application of these issues. Please feel free to add corrections as you see fit.
 
